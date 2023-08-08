@@ -36,7 +36,7 @@ class ClientPrefs {
 	public static var noteOffset:Int = 0;
 	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
 	public static var vibration:Bool = false;
-	public static var ghostTapping:Bool = true;
+	public static var ghostTapping:Bool = false;
 	public static var timeBarType:String = 'Time Left';
 	public static var showTimeBar:Bool = true;
 	public static var colorblindMode:String = 'None';
