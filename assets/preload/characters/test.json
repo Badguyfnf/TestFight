@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				13
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Test Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				126,
+				-43
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				-12
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-95
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				87,
+				101
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Test_Assets",
+	"position": [
+		-170,
+		-40
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		160,
+		160,
+		162
+	],
+	"camera_position": [
+		20,
+		130
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}
