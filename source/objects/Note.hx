@@ -85,7 +85,7 @@ class Note extends FlxSprite {
 	public var copyAlpha:Bool = true;
 
 	public var hitHealth:Float = 0.025;
-	public var missHealth:Float = 0.035;
+	public var missHealth:Float = 0.050;
 	public var rating:String = 'unknown';
 	public var ratingMod:Float = 0; // 9 = unknown, 0.25 = freak, 0.5 = bad, 0.75 = good, 1 = sick
 	public var ratingDisabled:Bool = false;
@@ -144,7 +144,7 @@ class Note extends FlxSprite {
 					if (isSustainNote) {
 						missHealth = 0;
 					} else {
-						missHealth = 0;
+						missHealth = 0.01;
 					}
 					hitCausesMiss = true;
 				case 'Alt Animation':
