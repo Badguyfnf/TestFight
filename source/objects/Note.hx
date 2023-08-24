@@ -142,7 +142,7 @@ class Note extends FlxSprite {
 					lowPriority = true;
 
 					if (isSustainNote) {
-						missHealth = 0;
+						missHealth = -0.025;
 					} else {
 						missHealth = 0.01;
 					}
